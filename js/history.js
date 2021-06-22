@@ -39,6 +39,7 @@ $(function ()
 
      // Call function to load page
      loadContent(path);
+     // Variable to store path of url in substring method using lastIndexOf method
      var page = path.substring(location.pathname.lastIndexOf("/") + 1);
 
      // Remove current from links
